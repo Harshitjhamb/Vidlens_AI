@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling >= 1.26"]
+build-backend = "hatchling.build"
+
+[project]
+name = "video_understanding"
+version = "0.1.0"
+authors = [
+  { name="Grigorij Dudnik", email="dudnikgrv@gmail.com" },
+]
+description = "Understand and describe your videos with SmolVLM2, Whisper and Qwen. Fully local."
+dependencies = [
+    "transformers>=4.56.2",
+    "accelerate>=1.10.1",
+    "num2words>=0.5.14",
+    "av>=15.1.0",
+    "torchcodec>=0.7.0",
+    "pillow>=11.3.0",
+    "openai-whisper>=20250625",
+    "torchvision>=0.23.0",
+]
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+license = "MIT"
+license-files = ["LICEN[CS]E*"]
+
+[project.urls]
+Homepage = "https://github.com/pypa/sampleproject"
+Issues = "https://github.com/pypa/sampleproject/issues"

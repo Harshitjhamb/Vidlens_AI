@@ -1,0 +1,6 @@
+transformers==4.56.2
+accelerate==1.10.1
+num2words==0.5.14
+av==15.1.0
+torchcodec==0.7.0
+pillow==11.3.0

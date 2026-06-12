@@ -1,0 +1,6 @@
+venv/
+*.mp4
+.coderrules
+.clean_coder/
+__pycache__/
+dist/
