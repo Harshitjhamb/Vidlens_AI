@@ -1,4 +1,4 @@
-# 🎬 Video Understanding Local
+# 🎬 VidLens_AI
 
 AI-powered video analysis that combines audio transcription and visual understanding - running entirely on your machine!
 
