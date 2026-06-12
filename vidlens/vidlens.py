@@ -11,7 +11,6 @@ OVERLAP = 5          # seconds
 device = "cuda" if torch.cuda.is_available() else "cpu"
 os.environ["PYTORCH_ALLOC_CONF"] = "expandable_segments:True"
 
-
 def _check_ffmpeg_installed():
     if not shutil.which("ffmpeg") or not shutil.which("ffprobe"):
         print(

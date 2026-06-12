@@ -3,10 +3,10 @@ requires = ["hatchling >= 1.26"]
 build-backend = "hatchling.build"
 
 [project]
-name = "video_understanding"
+name = "VIDLENS_AI"
 version = "0.1.0"
 authors = [
-  { name="Grigorij Dudnik", email="dudnikgrv@gmail.com" },
+  { name="Harshit Jhamb", email="harshitjhamb03@gmail.com" },
 ]
 description = "Understand and describe your videos with SmolVLM2, Whisper and Qwen. Fully local."
 dependencies = [
@@ -27,7 +27,3 @@ classifiers = [
 ]
 license = "MIT"
 license-files = ["LICEN[CS]E*"]
-
-[project.urls]
-Homepage = "https://github.com/pypa/sampleproject"
-Issues = "https://github.com/pypa/sampleproject/issues"

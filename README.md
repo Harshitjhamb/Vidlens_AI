@@ -1,7 +1,5 @@
 # 🎬 Video Understanding Local
 
-![Video Understanding](images/main_image.png)
-
 AI-powered video analysis that combines audio transcription and visual understanding - running entirely on your machine!
 
 Perfect for organizing raw footage, preparing video montages, or extracting insights from your video content - all while keeping your data completely private on your own machine.
@@ -17,13 +15,13 @@ Perfect for organizing raw footage, preparing video montages, or extracting insi
 Simply install from PyPI:
 
 ```bash
-pip install video_understanding
+pip install vidlens
 ```
 
 ## 💡 Quick Start
 
 ```python
-from video_understanding.video_understanding import analyze_video
+from vidlens.vidlens import analyze_video
 
 # Analyze any video file
 summary = analyze_video("path/to/video.mp4")
@@ -38,7 +36,7 @@ Here's a practical example that can save you hours - automatically renaming raw 
 
 ```python
 import os
-from video_understanding.video_understanding import analyze_video
+from vidlens.vidlens import analyze_video
 
 # Define what you want the AI to focus on
 system_prompt = """
@@ -103,3 +101,4 @@ tools_list = analyze_video("tutorial.mp4", system_prompt=prompt)
 ```
 
 # VidLens_AI
+# Vidlens_AI
